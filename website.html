@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="bootstrap.min.css">
+<style>
+    html{
+        padding:50px 200px 60px 50px;
+    }
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1> Application</h1>
+          <application></application>
+          <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input type="text" class="form-control" id="name"  placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="email"  placeholder="Enter Email">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputAge">Age</label>
+            <input type="number" class="form-control" id="age"  placeholder="Enter Age">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPhone">Phone number</label>
+            <input type="text" class="form-control" id="phone"  placeholder="Enter Phone Number">
+            
+          </div>
+          <application>Preffered way of communication:</application>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Phone
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              E-mail
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="exampleSelect1">English Level:</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>A1</option>
+              <option>A2</option>
+              <option>B1</option>
+              <option>B2</option>
+              <option>C1</option>
+              <option>C2</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Available to start:</label>
+            <input type="date" class="form-control" id="exampleInputAge" aria-describedby="emailHelp" placeholder=" ">
+            
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleTextarea">Technical skills and Courses:</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+              <label for="exampleTextarea">Short Personal Presentation:</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="e.g. reason for joining the program "></textarea>
+            </div>
+          <application>
+          </application>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="" unchecked="">
+                Study from home.
+
+              </label>
+            </div>
+         
+          </fieldset>
+          <button name="submit" type="submit" class="btn btn-primary" onclick="save()">Submit</button>
+        </fieldset>
+      </form>
+</body>
+</html>
