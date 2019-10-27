@@ -46,12 +46,9 @@ function tradeCommisions(input) {
         console.log(sales.toFixed(2));
     } else if (city !== "Sofia" && city !== "Plovdiv" && city !== "Varna") {
         console.log("error");
-        if (sales < 0) {
-            console.log("error");
-    
-        }
-        
-
+    } if (sales < 0) {
+        console.log("error");
+    }
 
 
 }
