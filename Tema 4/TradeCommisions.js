@@ -15,7 +15,6 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-        console.log(sales.toFixed(2));
     }
     if (city === "Varna") {
         if (sales >= 0 && sales <= 500) {
@@ -29,7 +28,7 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-        console.log(sales.toFixed(2));
+        
     }
     if (city === "Plovdiv") {
         if (sales >= 0 && sales <= 500) {
@@ -43,13 +42,12 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-        console.log(sales.toFixed(2));
     } else if (city !== "Sofia" && city !== "Plovdiv" && city !== "Varna") {
         console.log("error");
-    } if (sales < 0) {
+        if(sales < 0 )
         console.log("error");
-    }
+        }
 
-
+        console.log(sales.toFixed(2));
 }
 tradeCommisions(["Plovdiv", -50])
