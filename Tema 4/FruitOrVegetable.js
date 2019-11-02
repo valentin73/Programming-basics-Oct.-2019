@@ -1,9 +1,9 @@
 function fruidOrVegetable(input) {
     let product = input.shift();
 
-    if (product === "banana" || product === "apple" || product === " kiwi" || product === "cherry" || product === "lemon" || product === "grapes") {
+    if (product === "banana" || product === "apple" || product === "kiwi" || product === "cherry" || product === "lemon" || product === "grapes") {
         console.log("fruit");
-    } else if (product === "tomato" || product === "cucumber" || product === "papper" || product === " carrot") {
+    } else if (product === "tomato" || product === "cucumber" || product === "pepper" || product === "carrot") {
         console.log("vegetable");
 
     } else {
@@ -12,4 +12,4 @@ function fruidOrVegetable(input) {
     }
 }
 
-fruidOrVegetable(["cherry"]);
+fruidOrVegetable(["kiwi"]);
