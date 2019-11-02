@@ -2,8 +2,11 @@ function tradeCommisions(input) {
     let city = input.shift();
     let sales = Number(input.shift());
 
-    let commision = 0;
-    if (city === "Sofia") {
+    let commision;
+    if (city !== "Sofia" && city !== "Plovdiv" && city !== "Varna" || (sales < 0)) {
+        console.log("error");
+
+    }else if (city === "Sofia") {
         if (sales >= 0 && sales <= 500) {
             commision = 0.05;
         } else if (sales > 500 && sales <= 1000) {
@@ -15,8 +18,8 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-    }
-    if (city === "Varna") {
+        console.log(sales.toFixed(2));
+    }else if (city === "Varna") {
         if (sales >= 0 && sales <= 500) {
             commision = 0.045;
         } else if (sales > 500 && sales <= 1000) {
@@ -28,9 +31,8 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-        
-    }
-    if (city === "Plovdiv") {
+        console.log(sales.toFixed(2));
+    }else if (city === "Plovdiv") {
         if (sales >= 0 && sales <= 500) {
             commision = 0.055;
         } else if (sales > 500 && sales <= 1000) {
@@ -42,12 +44,7 @@ function tradeCommisions(input) {
         }
         sales = sales * commision
 
-    } else if (city !== "Sofia" && city !== "Plovdiv" && city !== "Varna") {
-        console.log("error");
-        if(sales < 0 )
-        console.log("error");
-        }
-
         console.log(sales.toFixed(2));
-}
-tradeCommisions(["Plovdiv", -50])
+    }
+
+} tradeCommisions(["Varna", -220])
