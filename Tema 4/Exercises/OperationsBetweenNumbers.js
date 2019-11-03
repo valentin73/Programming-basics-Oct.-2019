@@ -36,27 +36,34 @@ function operations(input) {
             } else {
                 console.log(`${num1} ${operator} ${num2} = ${result} - odd`);
             }
-        };break;
+        }; break;
         case ("/"): {
-            result = num1 / num2;
-            if(num1 = 0 ){
-                console.log(`Cannot divide ${num1} by zero`);
-            }else if (num2 =0){
+            if (num1 === 0) {
                 console.log(`Cannot divide ${num2} by zero`);
+            } else if (num2 === 0) {
+                console.log(`Cannot divide ${num1} by zero`);
+            } else {
+                result = num1 / num2;
+                console.log(`${num1} ${operator} ${num2} = ${result.toFixed(2)}`);
             }
 
-        } ;break;
+        }; break;
         case ("%"): {
-            result = num1 % num2;
-            console.log(`${num1} ${operator} ${num2} = ${result}`);
-            if (num2 = 0) {
-                console.log(`Cannot divide ${num1} by zero`);
-            } else if (num1 = 0) {
+            if (num1 === 0) {
                 console.log(`Cannot divide ${num2} by zero`);
+            } else if (num2 === 0) {
+                console.log(`Cannot divide ${num1} by zero`);
+            } else {
+                result = num1 % num2;
+                console.log(`${num1} ${operator} ${num2} = ${result}`);
             }
         }; break;
+     }
 
-    }
+ }
+operations([
+    "7",
+    "3",
+    "*",
 
-}
-operations([112,0,"/"])
+])
