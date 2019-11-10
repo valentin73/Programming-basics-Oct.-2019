@@ -19,4 +19,4 @@ function cake(input) {
         console.log(`${cakeArea} pieces are left.`);
 
     }
-}
+}cake([10,2,2,4,6,"STOP"])
