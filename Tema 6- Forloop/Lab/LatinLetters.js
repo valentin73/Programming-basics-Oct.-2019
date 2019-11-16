@@ -1,11 +1,6 @@
 function latinLetters(input) {
-    let name = input.shift();
+    for (let i = "a".charCodeAt(0); i <= "z".charCodeAt(0); i++) {
+        console.log(String.fromCharCode(i));
 
-
-    for (let i = 0; i < name.length; i++) {
-        let ascii = name.charCodeAt[i]
-        ascii += 1;
     }
-}
-latinLetters(["Pesho"])
-
+} latinLetters()
