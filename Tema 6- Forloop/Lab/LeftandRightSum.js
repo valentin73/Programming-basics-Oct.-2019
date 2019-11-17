@@ -1,16 +1,15 @@
 function leftAndRight(input) {
     let amount = Number(input[0]);
-    let n =1;
-    let m =n*2;
+    let m =2 * amount;
     let leftSum = 0;
     let rightSum = 0;
     
-    for (let i = 0; i < amount; i++) {
-        let number = Number(input[n])
-        n++;
+    for (let i = 1; i <= amount; i++) {
+        let number = Number(input[i])
+
         leftSum +=number;
     }
-    for (let i = ++m; i <= 2*amount; i++) {
+    for (let i = m; i < 2*amount; i++) {
         let number = Number(input[m])
         m++;
         rightSum +=number;
@@ -25,7 +24,9 @@ function leftAndRight(input) {
     }
     
 
-} leftAndRight([2,
+}
+
+leftAndRight([2,
     10,
     90,
     60,
