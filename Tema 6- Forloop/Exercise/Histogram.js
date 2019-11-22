@@ -5,7 +5,7 @@ function histogram(input) {
     let p2 = 0;
     let p3 = 0;
     let p4 = 0;
-    let p5 = 0;;
+    let p5 = 0;
 
     let c1 = 0;
     let c2 = 0;
@@ -32,7 +32,7 @@ function histogram(input) {
     p3 = c3 / n *100;
     p4 = c4 / n *100;
     p5 = c5 / n *100;
-    
+
     console.log(`${p1.toFixed(2)}%`);
     console.log(`${p2.toFixed(2)}%`);
     console.log(`${p3.toFixed(2)}%`);
