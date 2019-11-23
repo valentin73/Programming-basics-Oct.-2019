@@ -30,4 +30,4 @@ function sumTwoNumbers(input) {
         console.log(`${counter} combinations - neither equals ${magicNumber}`);
     }
 }
-sumTwoNumbers([1, 10, 5])
+sumTwoNumbers([88, 888, 1000])
