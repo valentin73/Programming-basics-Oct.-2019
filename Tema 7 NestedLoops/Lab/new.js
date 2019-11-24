@@ -1,16 +1,17 @@
-function cookieFactory(input) {
-    let index = 0;
+function cookie(input) {
+    index = 0;
     let batch = Number(input[index]);
+
     let flourFound = false;
     let eggsFound = false;
     let sugarFound = false;
     let allFound = false;
+
     let bakeFound = false;
-    let currentBatch = 0;
+
     for (let i = 1; i <= batch; i++) {
         index++;
-        let ingredient = input[index]
-
+        let ingredient = input[index];
         while (!bakeFound || !allFound) {
             switch (ingredient) {
                 case ("flour"): {
@@ -22,36 +23,10 @@ function cookieFactory(input) {
                 } case ("Bake!"): {
                     bakeFound = true; break;
                 }
-
             }
-            if (flourFound && eggsFound && sugarFound) {
+            if(flourFound && eggsFound && sugarFound){
                 allFound = true;
-
             }
-            index++;
-            ingredient = input[index];
         }
-        currentBatch++;
-
-        if (allFound) {
-            console.log(`Baking batch number ${currentBatch}...`);
-
-        } else {
-            console.log("The batter should contain flour, eggs and sugar!")
-        }
-
     }
 }
-
-
-cookieFactory([
-    '3', 'flour', 'eggs',
-    'jam', 'Bake!', 'sugar',
-    'Bake!', 'flour', 'eggs',
-    'milk', 'almonds', 'sugar',
-    'Bake!', 'flour', 'eggs',
-    'sugar', 'Bake!'
-]
-);
-
-
