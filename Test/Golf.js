@@ -38,6 +38,6 @@ function golf(input) {
     'anotherPowerHit',
     '70',
     'F'
-    
+
 ]
 )
