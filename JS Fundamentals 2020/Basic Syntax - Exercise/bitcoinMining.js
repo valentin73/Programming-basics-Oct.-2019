@@ -7,6 +7,8 @@ function bitcoinMining(input) {
     let dayOfTheFirstBitcoin = null;
     let currentBitcoins = 0;
     let bitcoinCounter = 0;
+
+    let boughtBitcoin = false;
     for (let dayNumber = 0; dayNumber < input.length; dayNumber++) {
         let currentDayWinnings = input[dayNumber];
         if ((dayNumber + 1) % 3 === 0) {
@@ -20,11 +22,14 @@ function bitcoinMining(input) {
             totalMoney = totalMoney - (currentBitcoins * bitcoinValue);
             if (dayOfTheFirstBitcoin === null) {
                 dayOfTheFirstBitcoin = (dayNumber + 1);
-                console.log(`Day of the first purchased bitcoin : ${dayOfTheFirstBitcoin}`);
+                boughtBitcoin = true;
             }
         }
     }
     console.log(`Bought bitcoins: ${bitcoinCounter}`);
+    if(boughtBitcoin){
+        console.log(`Day of the first purchased bitcoin: ${dayOfTheFirstBitcoin}`);
+    }
     console.log(`Left money: ${totalMoney.toFixed(2)} lv.`)
 }
 bitcoinMining([50, 100, 500])
