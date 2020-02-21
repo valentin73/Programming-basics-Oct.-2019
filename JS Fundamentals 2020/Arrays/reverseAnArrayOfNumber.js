@@ -5,4 +5,4 @@ function reverseAnArrayOfNumber(number, inputArr){
     }
     console.log(newArray);
 }
-reverseAnArrayOfNumber(3, [10, 20, 30, 40, 50])
+reverseAnArrayOfNumber(3, [10, 20, 30, 40, 50]);
