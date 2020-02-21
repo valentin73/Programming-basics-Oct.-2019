@@ -5,4 +5,4 @@ function sortNumbers(firstNumber, secondNumber, thirdNumber){
     console.log(numbersArray[i]);
     }
 }
-sortNumbers(4, 1, 9)
+sortNumbers(4, 1, 9);
