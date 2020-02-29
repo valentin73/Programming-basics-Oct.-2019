@@ -1,6 +1,5 @@
-let opa = "koi si ti we";
-let dyma = opa.split(" ")[0];
-// let edno = dyma[0]
-
-// console.log(edno);
-console.log(dyma);
+let sum = 0
+let num = [1, 2, 3, 4, 5]
+for (let i = 0; i < num.length; i++) {
+    
+}
