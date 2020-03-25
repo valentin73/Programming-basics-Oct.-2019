@@ -1,13 +1,16 @@
-function addAndSubtract(firstNumber,secondNumber, thirdNumber){
-    let result = 0
-    function sum(firstNumber,secondNumber){
-        result = firstNumber + secondNumber
-    }  
-    sum(firstNumber,secondNumber); 
-    function subtract(thirdNumber){
-        result = result - thirdNumber
+function addAndSubtract(firstNumber, secondNumber, thirdNumber) {
+    function sum(a, b) {
+        return a + b;
     }
-    subtract(thirdNumber)
-    console.log(result);
+
+    function subtract(a, b) {
+        return a - b;
+    }
+
+    let sumResult = sum(firstNumber, secondNumber);
+    let fullResult = subtract(sumResult, thirdNumber);
+
+    console.log(fullResult);
+
 }
-addAndSubtract(1,17,30);
+addAndSubtract(1, 2, 1);

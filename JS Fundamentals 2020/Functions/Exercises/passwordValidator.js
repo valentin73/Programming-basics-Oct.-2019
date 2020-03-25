@@ -1,39 +1,65 @@
 function passwordValidator(password) {
-    let passwordLength = password.length;
+    function lengthChecker(password) {
+        let isValid = true;
 
-    function lenghtCheck(passwordLength) {
-        let lenghtChecker = false;
-        if (passwordLength >= 6 && passwordLength <= 10) {
-            lenghtChecker = true;
+        if (password < 6 || password > 10) {
+            isValid = false;
         }
-        return lenghtChecker;
-    }
 
-    let lengthCheckValue = lenghtCheck(passwordLength);
-    if (!lengthCheckValue) {
-        console.log(`Password must be between 6 and 10 characters`);
+        return isValid;
     }
-
-    function symbolBetweenRange(symbol, start, end) {
+    
+    function isBetweenRange(symbol, start, end) {
         return symbol.charCodeAt(0) >= start.charCodeAt(0) && symbol.charCodeAt(0) <= end.charCodeAt(0);
     }
-    function symbolsAreLettersAndNumbers(password) {
-        let symbolsChecker = false;
-        for (symbol of password) {
-            if (!(symbolBetweenRange(symbol, 'A', 'Z') ||
-                symbolBetweenRange(symbol, 'a', 'z') ||
-                symbolBetweenRange(symbol, '0', '9'))) {
-                    symbolsChecker = true;
-                }
-                return symbolsChecker;
+    
+    function containsOnlyLettersAndDigits(password) {
+        let isValid = true;
+        for (let symbol of password) {
+            if (!(isBetweenRange(symbol, "A", "Z") ||
+            isBetweenRange(symbol, "a", "z") ||
+            isBetweenRange(symbol, "0", "9"))) {
+                isValid = false;
+                break;
+            }
         }
+        return isValid;
     }
-    let symbolsAreLettersAndNumbersValue = symbolsAreLettersAndNumbers(password);
-    if(symbolsAreLettersAndNumbersValue){
-        console.log('Password must consist only of letters and digits');
+
+    function containsAtLeastTwoDigits(password){
+        let digitsCounter = 0;
+        for(let symbol of password){
+            
+            if(isBetweenRange(symbol, "0", "9")){
+                digitsCounter++;
+                if(digitsCounter >= 2 ){
+                    break;
+                }
+            }
+        }
+        return digitsCounter === 2 ? true : false;
+    }
+
+    let lengthCheckerValue = lengthChecker(password.length);
+    if (lengthCheckerValue === false) {
+        console.log("Password must be between 6 and 10 characters");
+    }
+
+    let containsOnlyLettersAndDigitsValue = containsOnlyLettersAndDigits(password);
+    if(containsOnlyLettersAndDigitsValue === false) {
+        console.log("Password must consist only of letters and digits");
+    }
+
+    let containsAtLeastTwoDigitsValue = containsAtLeastTwoDigits(password);
+    if(!containsAtLeastTwoDigitsValue ){
+        console.log("Password must have at least 2 digits");
+    }
+
+    if(lengthCheckerValue && containsOnlyLettersAndDigitsValue && containsAtLeastTwoDigitsValue){
+        console.log("Password is valid");
     }
 }
-passwordValidator("l!ogin")
+passwordValidator("log2!sssgin");
 
 
 
