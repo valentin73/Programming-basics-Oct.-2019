@@ -32,4 +32,4 @@ function bitcoinMining(input) {
     }
     console.log(`Left money: ${totalMoney.toFixed(2)} lv.`)
 }
-bitcoinMining([50, 100, 500])
+bitcoinMining([50, 100, 500]);
