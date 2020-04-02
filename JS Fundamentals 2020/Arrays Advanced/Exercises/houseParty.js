@@ -11,7 +11,8 @@ function houseParty(whoIsComing) {
             }
         }else{
             if (comingGuests.includes(currentGuest)) {
-                comingGuests.pop(currentGuest)
+                let index = comingGuests.indexOf(currentGuest);
+                comingGuests.splice(index, 1)
             } else {
                 console.log(`${currentGuest} is not in the list!`);
             }
@@ -22,7 +23,8 @@ function houseParty(whoIsComing) {
     }
 }
 houseParty(['Tom is going!',
-    'Annie is going!',
-    'Tom is going!',
-    'Garry is going!',
-    'Jerry is going!'])
+'Annie is going!',
+'Tom is going!',
+'Garry is going!',
+'Jerry is going!']
+)
