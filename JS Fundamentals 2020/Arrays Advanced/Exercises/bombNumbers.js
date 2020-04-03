@@ -5,12 +5,23 @@ function bombNumbers(sequence = [], bombNumber = []) {
 
     while (sequence.includes(bomb)) {
         if (sequence.includes(bomb)) {
-            
+            let index = sequence.indexOf(bomb);
+            let firstIndex = index - bombPower;
+            if (firstIndex >= 0) {
+                sequence.splice(firstIndex, (bombPower * 2) + 1);
+            }else {
+                sequence.splice(0, (bombPower * 2) + 1 + firstIndex);
+            }
         }
     }
-    console.log(sequence);
+    let result = 0;
+    for (let number of sequence) {
+        result += number
+    }
+    console.log(result);
 }
 
-bombNumbers([1, 2, 3, 4, 1, 2, 3, 9],
-    [4, 2]
+bombNumbers([1, 1, 2, 1, 1, 1, 2, 1, 1, 1],
+    [2, 5]
+
 )
