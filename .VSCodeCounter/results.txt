@@ -1,0 +1,179 @@
+Date : 2020-04-08 00:03:23
+Directory : e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020
+Total : 130 files,  2659 codes, 17 comments, 343 blanks, all 3019 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |        130 |      2,659 |         17 |        343 |      3,019 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |        130 |      2,659 |         17 |        343 |      3,019 |
+| Arrays                                                                                                                  |         24 |        549 |          0 |         27 |        576 |
+| Arrays Advanced                                                                                                         |         18 |        449 |         12 |         97 |        558 |
+| Arrays Advanced\Exercises                                                                                               |         10 |        327 |         12 |         75 |        414 |
+| Arrays Advanced\Lab                                                                                                     |          8 |        122 |          0 |         22 |        144 |
+| Arrays\Exercises                                                                                                        |         10 |        274 |          0 |          9 |        283 |
+| Arrays\Lab                                                                                                              |          8 |        108 |          0 |         10 |        118 |
+| Arrays\More exercises                                                                                                   |          6 |        167 |          0 |          8 |        175 |
+| Basic Syntax                                                                                                            |         28 |        491 |          0 |         53 |        544 |
+| Basic Syntax\Exercises                                                                                                  |         11 |        240 |          0 |         26 |        266 |
+| Basic Syntax\Lab                                                                                                        |         11 |        154 |          0 |         10 |        164 |
+| Basic Syntax\More exercises                                                                                             |          6 |         97 |          0 |         17 |        114 |
+| Data Types and Variables                                                                                                |         26 |        263 |          0 |         10 |        273 |
+| Data Types and Variables\Exercises                                                                                      |         10 |         80 |          0 |          3 |         83 |
+| Data Types and Variables\Lab                                                                                            |          9 |         81 |          0 |          5 |         86 |
+| Data Types and Variables\More exercises                                                                                 |          7 |        102 |          0 |          2 |        104 |
+| Exams                                                                                                                   |          6 |        391 |          0 |         72 |        463 |
+| Exams\Final Exam April                                                                                                  |          3 |        268 |          0 |         53 |        321 |
+| Exams\Mid Exam February                                                                                                 |          3 |        123 |          0 |         19 |        142 |
+| Functions                                                                                                               |         19 |        378 |          0 |         61 |        439 |
+| Functions\Exercises                                                                                                     |         10 |        184 |          0 |         46 |        230 |
+| Functions\Lab                                                                                                           |          6 |         93 |          0 |          5 |         98 |
+| Functions\More exercises                                                                                                |          3 |        101 |          0 |         10 |        111 |
+| Objects And Classes                                                                                                     |          9 |        138 |          5 |         23 |        166 |
+| Objects And Classes\Exercises                                                                                           |          2 |         43 |          0 |          6 |         49 |
+| Objects And Classes\Lab                                                                                                 |          7 |         95 |          5 |         17 |        117 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\arrayManipulator.js                    | JavaScript |         91 |          0 |         12 |        103 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\bombNumbers.js                         | JavaScript |         23 |          0 |          4 |         27 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\districtArray.js                       | JavaScript |         10 |          0 |          0 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\houseParty.js                          | JavaScript |         29 |          0 |          1 |         30 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\rers.js                                | JavaScript |         98 |          6 |         47 |        151 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\sa.js                                  | JavaScript |          2 |          0 |          1 |          3 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\searchForNumber.js                     | JavaScript |         12 |          6 |          2 |         20 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\sortArrayByTwoCriteria.js              | JavaScript |         14 |          0 |          2 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\sorting.js                             | JavaScript |         16 |          0 |          2 |         18 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Exercises\train.js                               | JavaScript |         32 |          0 |          4 |         36 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\arrayManipulations.js                        | JavaScript |         34 |          0 |          2 |         36 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\firstAndLastKNumbers.js                      | JavaScript |          8 |          0 |          2 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\lastKNumbersSequence.js                      | JavaScript |         33 |          0 |         10 |         43 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\listOfProducts.js                            | JavaScript |          7 |          0 |          2 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\negativeAndPositiveNumbers.js                | JavaScript |         15 |          0 |          0 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\processOddNumbers.js                         | JavaScript |         11 |          0 |          3 |         14 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\smallestTwoNumber.js                         | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays Advanced\Lab\sumFirstLast.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\addOrSubtract.js                                | JavaScript |         23 |          0 |          0 |         23 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\arraysRotation.js                               | JavaScript |          8 |          0 |          0 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\commonElements.js                               | JavaScript |         12 |          0 |          0 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\dungeonestDark.js                               | JavaScript |         56 |          0 |          3 |         59 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\equalSums.js                                    | JavaScript |         24 |          0 |          1 |         25 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\ladyBugs.js                                     | JavaScript |         75 |          0 |          3 |         78 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\magicSum.js                                     | JavaScript |         14 |          0 |          0 |         14 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\maxNumber.js                                    | JavaScript |         21 |          0 |          1 |         22 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\maxSequenceOfEqualElements.js                   | JavaScript |         21 |          0 |          1 |         22 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Exercises\mergeArrays.js                                  | JavaScript |         20 |          0 |          0 |         20 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\condenseArrayToNumber.js                              | JavaScript |         19 |          0 |          0 |         19 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\dayOfTheWeek.js                                       | JavaScript |          9 |          0 |          1 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\equalArrays.js                                        | JavaScript |         23 |          0 |          3 |         26 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\evenAndOddSubtraction.js                              | JavaScript |         16 |          0 |          0 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\reverseAnArrayOfNumber.js                             | JavaScript |          8 |          0 |          0 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\reverseArrayOfStrings.js                              | JavaScript |         15 |          0 |          4 |         19 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\sumEvenNumbers.js                                     | JavaScript |         11 |          0 |          1 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\Lab\sumFirstAndLastElement.js                             | JavaScript |          7 |          0 |          1 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\addAndRemove.js                            | JavaScript |         19 |          0 |          0 |         19 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\magicMatrices.js                           | JavaScript |         62 |          0 |          4 |         66 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\nonDecreasingSubsequence.js                | JavaScript |         15 |          0 |          0 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\printNthElement.js                         | JavaScript |          9 |          0 |          1 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\rotateArray.js                             | JavaScript |         10 |          0 |          0 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Arrays\More exercises\tseamAccount.js                            | JavaScript |         52 |          0 |          3 |         55 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\Ages.js                                   | JavaScript |         16 |          0 |          3 |         19 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\Rounding.js                               | JavaScript |          8 |          0 |          0 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\bitcoinMining.js                          | JavaScript |         33 |          0 |          2 |         35 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\division.js                               | JavaScript |         16 |          0 |          1 |         17 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\leapYear.js                               | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\login.js                                  | JavaScript |         19 |          0 |          7 |         26 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\multiplicationTable.js                    | JavaScript |          5 |          0 |          1 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\printAndSum.js                            | JavaScript |         10 |          0 |          2 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\thePyramidOfKingDjoser.js                 | JavaScript |         47 |          0 |          6 |         53 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\triangleOfNumbers.js                      | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Exercises\vacation.js                               | JavaScript |         73 |          0 |          3 |         76 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\divisibleBy3.js                                 | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\excellentGrade.js                               | JavaScript |          7 |          0 |          2 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\foreignLanguages.js                             | JavaScript |         17 |          0 |          2 |         19 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\monthPrinter.js                                 | JavaScript |         44 |          0 |          1 |         45 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\multiplyNumberBy2.js                            | JavaScript |          4 |          0 |          0 |          4 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\numbersFrom1To5.js                              | JavaScript |          5 |          0 |          1 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\numbersFromMtoN.js                              | JavaScript |          7 |          0 |          1 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\numbersFromNto1.js                              | JavaScript |          6 |          0 |          1 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\studentInformation.js                           | JavaScript |          3 |          0 |          1 |          4 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\sumOfOddNumbers.js                              | JavaScript |         15 |          0 |          0 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\Lab\theatrePromotions.js                            | JavaScript |         38 |          0 |          0 |         38 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\distanceBetweenPoints.js             | JavaScript |         20 |          0 |          1 |         21 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\englishNameOfTheLastDigit.js         | JavaScript |         45 |          0 |         12 |         57 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\nextDay.js                           | JavaScript |          6 |          0 |          1 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\reverse.String.js                    | JavaScript |          5 |          0 |          1 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\sortNumbers.js                       | JavaScript |          8 |          0 |          0 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Basic Syntax\More exercises\taste.js                             | JavaScript |         13 |          0 |          2 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\calculator.js                 | JavaScript |         17 |          0 |          0 |         17 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\charsToString.js              | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\convertMetersToKm.js          | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\gladiatorExpenses.js          | JavaScript |          9 |          0 |          3 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\lowerToUpper.js               | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\poundsToDollars.js            | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\reversedChars.js              | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\spiceMustFlow.js              | JavaScript |         15 |          0 |          0 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\sumDigits.js                  | JavaScript |         11 |          0 |          0 |         11 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Exercises\townInfo.js                   | JavaScript |          3 |          0 |          0 |          3 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\amazingNumbers.js                   | JavaScript |         11 |          0 |          1 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\centuriesToMinutes.js               | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\concatenateNames.js                 | JavaScript |          3 |          0 |          1 |          4 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\fuelMoney.js                        | JavaScript |          7 |          0 |          0 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\gramophone.js                       | JavaScript |          6 |          0 |          1 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\integerAndFloat.js                  | JavaScript |          6 |          0 |          0 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\rightPlace.js                       | JavaScript |          6 |          0 |          0 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\specialNumbers.js                   | JavaScript |         22 |          0 |          0 |         22 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\Lab\triplesOfLatinLetters.js            | JavaScript |         12 |          0 |          1 |         13 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\biggestOfThreeNumbers.js | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\binaryToDecimal.js       | JavaScript |          6 |          0 |          1 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\chessBoard.js            | JavaScript |         28 |          0 |          0 |         28 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\cone.js                  | JavaScript |          8 |          0 |          0 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\digitsWithWords.js       | JavaScript |         34 |          0 |          0 |         34 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\primeNumbersChecker.js   | JavaScript |         12 |          0 |          0 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Data Types and Variables\More exercises\triangleArea.js          | JavaScript |          6 |          0 |          0 |          6 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Final Exam April\fancyBorders.js                           | JavaScript |        102 |          0 |         16 |        118 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Final Exam April\heroesOfCodeAndLogic.js                   | JavaScript |        105 |          0 |         32 |        137 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Final Exam April\passwordReset.js                          | JavaScript |         61 |          0 |          5 |         66 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Mid Exam February\heartDelivery.js                         | JavaScript |         57 |          0 |         13 |         70 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Mid Exam February\nationalCourt.js                         | JavaScript |         14 |          0 |          2 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Exams\Mid Exam February\shoppingList.js                          | JavaScript |         52 |          0 |          4 |         56 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\NxNMatrix.js                                 | JavaScript |         10 |          0 |          0 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\addAndSubtract.js                            | JavaScript |         12 |          0 |          4 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\charactersInRange.js                         | JavaScript |         16 |          0 |          0 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\factorialDivision.js                         | JavaScript |         21 |          0 |          5 |         26 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\loadingBar.js                                | JavaScript |         18 |          0 |          3 |         21 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\oddAndEvenSum.js                             | JavaScript |         16 |          0 |          0 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\palindromeIntegers.js                        | JavaScript |         14 |          0 |          1 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\passwordValidator.js                         | JavaScript |         52 |          0 |         31 |         83 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\perfectNumber.js                             | JavaScript |         15 |          0 |          1 |         16 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Exercises\smallestOfThreeNumbers.js                    | JavaScript |         10 |          0 |          1 |         11 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\grades.js                                          | JavaScript |         14 |          0 |          1 |         15 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\mathPower.js                                       | JavaScript |          5 |          0 |          0 |          5 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\orders.js                                          | JavaScript |         22 |          0 |          2 |         24 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\repeatString.js                                    | JavaScript |          7 |          0 |          0 |          7 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\simpleCalculator.js                                | JavaScript |         21 |          0 |          1 |         22 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\Lab\wrongResult.js                                     | JavaScript |         24 |          0 |          1 |         25 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\More exercises\carWash.js                              | JavaScript |         25 |          0 |          0 |         25 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\More exercises\numberModification.js                   | JavaScript |         34 |          0 |          5 |         39 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Functions\More exercises\poinstValidation.js                     | JavaScript |         42 |          0 |          5 |         47 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Exercises\e2.js                              | JavaScript |         19 |          0 |          3 |         22 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Exercises\employees.js                       | JavaScript |         24 |          0 |          3 |         27 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\cats.js                                  | JavaScript |         21 |          0 |          3 |         24 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\city.js                                  | JavaScript |          7 |          0 |          1 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\cityNEW.js                               | JavaScript |          8 |          0 |          2 |         10 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\convertToJSON.js                         | JavaScript |          8 |          0 |          1 |          9 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\convertToObject.js                       | JavaScript |          7 |          0 |          1 |          8 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\personInfo.js                            | JavaScript |         10 |          0 |          2 |         12 |
+| e:\JavaScript (VSC) codes\SoftUni\JS Fundamentals 2020\Objects And Classes\Lab\songs.js                                 | JavaScript |         34 |          5 |          7 |         46 |
+| Total                                                                                                                   |            |      2,659 |         17 |        343 |      3,019 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
