@@ -20,22 +20,25 @@ function songs(input) {
         allSongs.push(song);
     }
 
-    // for (const song of allSongs) {
-    //     if(song.typeList === wantedList || wantedList ==='all'){
-    //         console.log(song.name);
-    //     }
-    // }
-    let wantedSongs = []
-    wantedSongs = allSongs.filter(matchingSongs);
-
-    function matchingSongs(song){
+    for (const song of allSongs) {
         if(song.typeList === wantedList || wantedList ==='all'){
-            return song
+            console.log(song.name);
         }
     }
-    for (const song of wantedSongs) {
-        console.log(song.name);
-    }
+
+    // ALTERNATIVE SOLUTION:
+
+    // let wantedSongs = []
+    // wantedSongs = allSongs.filter(matchingSongs);
+
+    // function matchingSongs(song){
+    //     if(song.typeList === wantedList || wantedList ==='all'){
+    //         return song
+    //     }
+    // }
+    // for (const song of wantedSongs) {
+    //     console.log(song.name);
+    // }
     
 }
 songs([3,
