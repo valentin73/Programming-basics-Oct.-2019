@@ -1,2 +1,2 @@
-let obj = {da:'was', kaji:'kyrva'}
-console.log(Object.keys(obj).length);
+let greet = 'Hello World'
+console.log(greet.substring(3,5));

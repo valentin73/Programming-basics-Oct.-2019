@@ -4,12 +4,15 @@ function mirrorWords(words = []) {
     let pairs = pattern.exec(text)
     let firstWords = [];
     let secondWords = [];
+    
     while (pairs) {
         firstWords.push(pairs.groups.content1);
         secondWords.push(pairs.groups.content2);
         pairs = pattern.exec(text);
     }
+
     let secondWordsReversed = [];
+
     for (let iterator of secondWords) {
         iterator = iterator
             .split('')
@@ -18,31 +21,33 @@ function mirrorWords(words = []) {
         secondWordsReversed.push(iterator);
     }
 
-    let matchingWords = {}
+    let matchingWords = {};
+
     for (let i = 0; i < firstWords.length; i++) {
         let firstWord = firstWords[i];
         let secondWord = secondWords[i];
         let secondWordReversed = secondWordsReversed[i];
-        if(firstWord === secondWordReversed){
+
+        if (firstWord === secondWordReversed) {
             matchingWords[firstWord] = secondWord;
         }
-        
     }
     let output = [];
+    
     for (const key in matchingWords) {
         let currentString = `${key} <=> ${matchingWords[key]}`;
         output.push(currentString);
     }
 
-    if(firstWords.length > 0){
+    if (firstWords.length > 0) {
         console.log(`${firstWords.length} word pairs found!`);
-        if((Object.keys(matchingWords).length) > 0){
-        console.log('The mirror words are:');
-        console.log(output.join(', '));
-        }else{
+        if ((Object.keys(matchingWords).length) > 0) {
+            console.log(`The mirror words are:\n${output.join(', ')}`);
+        } else {
             console.log("No mirror words!");
         }
-    }else{
+
+    } else {
         console.log("No word pairs found!");
         console.log("No mirror words!");
     }
@@ -51,5 +56,4 @@ function mirrorWords(words = []) {
 
 
 mirrorWords([
-   '@pool##loop@'
-])
+    '@mix#tix3dj#poOl##loOp#wl@@bong&song%4very$long@thong#Part##traP##@@leveL@@Level@##car#rac##tu@pack@@ckap@#rr#sAw##wAs#r#@w1r	'])
