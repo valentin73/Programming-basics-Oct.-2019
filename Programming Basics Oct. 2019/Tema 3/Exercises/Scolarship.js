@@ -1,7 +1,4 @@
-function scholarship(input) {
-    let income = Number(input.shift());
-    let grade = Number(input.shift());
-    let minWage = Number(input.shift());
+function scholarship(income, grade, minWage) {
 
     let socialScholarship = minWage * 0.35;
     let gradeScholarship = grade * 25;

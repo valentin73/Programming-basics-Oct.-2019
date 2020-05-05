@@ -1,4 +1,5 @@
 function passwordValidator(password) {
+    
     function lengthChecker(password) {
         let isValid = true;
 
