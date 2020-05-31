@@ -1,14 +1,3 @@
-// function timeToWalk(steps, footprint, speed){
-//     let length = steps * footprint;
-//     let restTime = Math.floor(length / 500);
-//     let walkTime = length / (speed* 1000);
-//     let minutes = ((walkTime * 100) / 100 *60) + restTime;
-
-//     console.log(minutes);
-
-// }
-// timeToWalk(1000, 0.60, 5)
-
-let ab = 1
-
-console.log((`0${ab}`).slice(-2));
+const arr = [ ['0', 'a'], ['1', 'b'], ['2', 'c'] ];
+const obj = Object.fromEntries(arr);
+console.log(obj); // { 0: "a", 1: "b", 2: "c" }
