@@ -22,11 +22,14 @@ function cappyJuice(input = []) {
         }
         if (lessThan1000.get(name) >= 1000) {
             if (bottles.has(name)) {
-                let value = bottles.get(name)
-                bottles.set(name, quantity + value)
-                
+                let value = bottles.get(name);
+                let addingValue = lessThan1000.get(name)
+                bottles.set(name, addingValue + value)
+                lessThan1000.set(name, 0)
             } else {
-                bottles.set(name, quantity);
+                let value = lessThan1000.get(name)
+                bottles.set(name, value);
+                lessThan1000.set(name, 0)
             }
         }
 
