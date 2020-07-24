@@ -1,32 +1,16 @@
-function cappyJuice(input) {
-    let saveJuices = new Map;
- 
- 
-    for(let juice of input) {
-        let splitString = juice.split(' => ');
-        let juiceName = splitString[0];
-        let quantity = Number(splitString[1]);
- 
-        if(saveJuices.has(juiceName)) {
-            let getValue = saveJuices.get(juiceName);
-            saveJuices.delete(juiceName);
-            saveJuices.set(juiceName, quantity + getValue);
- 
-        }
-        else {
-            saveJuices.set(juiceName, quantity);
-        }
- 
-    }
- 
-    console.log(saveJuices);
-    for(let [k, v] of saveJuices) {
-        let divideBottles = Math.floor(v / 1000);
-        if(divideBottles >= 1) {
-            console.log(`${k} => ${divideBottles}`);
-        }
- 
-    }
- 
-}
-cappyJuice(['Kiwi => 234', 'Pear => 2345', 'Watermelon => 3456', 'Kiwi => 4567', 'Pear => 5678', 'Watermelon => 6789']);
+function solve() {
+    const anchors = Array.from(document.querySelectorAll('a'));
+    //const counters = anchors.map(el => Number(el.split(' ')[1]))
+    const container = document.querySelector('#page1 > .middled');
+  
+    container.addEventListener('click', function(e){
+      const target = e.target;
+      const parent = e.target.parentElement;
+  
+      const notAnchor = target.localName !== 'a';
+      const notParent = parent.localName !== 'a';
+      if(notAnchor && notParent){return}
+      const counterIndex = anchors.indexOf(notAnchor? parent : target)
+      console.log(counterIndex);
+    })
+  }

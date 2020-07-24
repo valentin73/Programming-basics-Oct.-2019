@@ -5,4 +5,4 @@ function arraysRotation(array, rotations) {
     }
     console.log(array.join(' '));
 }
-arraysRotation([51, 47, 32, 61, 21], 3)
+arraysRotation([51, 47, 32, 61, 21], 3) 
