@@ -1,6 +1,6 @@
 function solve() {
   const anchors = Array.from(document.querySelectorAll('a'));
-  const counters = anchors.map(el => Number(el.nextElementSibling.innerText.split(' ')[1]))
+  const counters = anchors.map(el => Number(el.nextElementSibling.innerText.split(' ')[1]));
   const container = document.querySelector('#page1 > .middled');
 
   container.addEventListener('click', function(e){
@@ -9,13 +9,20 @@ function solve() {
 
     const notAnchor = target.localName !== 'a';
     const notParent = parent.localName !== 'a';
-    if(notAnchor && notParent){return}
-    const targetCounter = notAnchor? parent : target
-    const counterIndex = anchors.indexOf(targetCounter)
-    if(counterIndex === -1){return}
+
+    if(notAnchor && notParent){
+      return;
+    }
+
+    const targetCounter = notAnchor? parent : target;
+    const counterIndex = anchors.indexOf(targetCounter);
+
+    if(counterIndex === -1){
+      return;
+    }
     counters[counterIndex]++;
     const paragraph = targetCounter.nextElementSibling;
-    paragraph.innerText = `visited ${counters[counterIndex]} times`
+    paragraph.innerText = `visited ${counters[counterIndex]} times`;
   })
 }
 
